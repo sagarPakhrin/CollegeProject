@@ -1,0 +1,808 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="AdmissionForm">
+  <grid id="27dc6" binding="myPanel" layout-manager="GridLayoutManager" row-count="4" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="1184" height="830"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="648b" layout-manager="GridLayoutManager" row-count="7" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none" title="Parent's Details"/>
+        <children>
+          <component id="fb4d9" class="javax.swing.JTextField" binding="textField2" default-binding="true">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="49ea9" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="16" style="1"/>
+              <text value="Mother's Name: "/>
+            </properties>
+          </component>
+          <component id="5383" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="16" style="1"/>
+              <text value="E-Mail"/>
+            </properties>
+          </component>
+          <component id="7d8b6" class="javax.swing.JTextField" default-binding="true">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="fe08b" class="javax.swing.JTextField" default-binding="true">
+            <constraints>
+              <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="f1aad" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="FIrst Name"/>
+            </properties>
+          </component>
+          <component id="efc31" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <enabled value="false"/>
+              <focusable value="false"/>
+              <font name="Fira Code" size="12" style="0"/>
+              <text value="Last Name"/>
+            </properties>
+          </component>
+          <component id="ad23" class="javax.swing.JTextField" binding="textField3" default-binding="true">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="e3810" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="16" style="1"/>
+              <text value="Father's Name:"/>
+            </properties>
+          </component>
+          <component id="c735d" class="javax.swing.JTextField" binding="textField6" default-binding="true">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="afea0" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="FIrst Name"/>
+            </properties>
+          </component>
+          <component id="355ad" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <enabled value="false"/>
+              <focusable value="false"/>
+              <font name="Fira Code" size="12" style="0"/>
+              <text value="Last Name"/>
+            </properties>
+          </component>
+          <component id="79444" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="16" style="1"/>
+              <text value="Phone Number"/>
+            </properties>
+          </component>
+          <component id="ee341" class="javax.swing.JTextField" binding="textField8" default-binding="true">
+            <constraints>
+              <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="a48e7" class="javax.swing.JTextField" default-binding="true">
+            <constraints>
+              <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="9fd9c" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Primary "/>
+            </properties>
+          </component>
+          <component id="9c53" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Secondary"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="cd974" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <vspacer id="21006">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <component id="b00c8" class="javax.swing.JButton" binding="addButton" default-binding="true">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Add"/>
+            </properties>
+          </component>
+          <component id="48099" class="javax.swing.JButton" binding="cancelButton" default-binding="true">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Cancel"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="1c469" layout-manager="GridLayoutManager" row-count="3" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="etched"/>
+        <children>
+          <component id="bc4d2" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <enabled value="true"/>
+              <focusable value="false"/>
+              <font name="Droid Serif" size="22" style="1"/>
+              <text value="Add New Student Details"/>
+            </properties>
+          </component>
+          <component id="859c7" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <enabled value="false"/>
+              <focusable value="false"/>
+              <font name="Fira Code" size="14" style="0"/>
+              <opaque value="false"/>
+              <text value="Fille up the form completelly to register a new student"/>
+              <verticalAlignment value="1"/>
+              <verticalTextPosition value="1"/>
+              <visible value="true"/>
+            </properties>
+          </component>
+          <vspacer id="66ad0">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+        </children>
+      </grid>
+      <grid id="860a2" layout-manager="GridLayoutManager" row-count="11" column-count="7" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none" title="Student's Details"/>
+        <children>
+          <component id="322ac" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+            <constraints>
+              <grid row="0" column="4" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="394f8" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <enabled value="false"/>
+              <focusable value="false"/>
+              <font name="Fira Code" size="12" style="0"/>
+              <text value="First Name"/>
+            </properties>
+          </component>
+          <component id="2c52" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="16" style="1"/>
+              <text value="Name"/>
+            </properties>
+          </component>
+          <component id="e32e5" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="16" style="1"/>
+              <text value="Class"/>
+            </properties>
+          </component>
+          <component id="655c9" class="javax.swing.JComboBox" binding="comboBox1" default-binding="true">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <model/>
+            </properties>
+          </component>
+          <component id="7e818" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="16" style="1"/>
+              <text value="Address"/>
+            </properties>
+          </component>
+          <component id="9134" class="javax.swing.JTextField" binding="textField4" default-binding="true">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="c6815" class="javax.swing.JTextField" binding="textField7" default-binding="true">
+            <constraints>
+              <grid row="3" column="4" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="aba1d" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="4" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <enabled value="false"/>
+              <focusable value="false"/>
+              <font name="Fira Code" size="12" style="0"/>
+              <text value="Street Address"/>
+            </properties>
+          </component>
+          <component id="19fd8" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="6" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <enabled value="false"/>
+              <focusable value="false"/>
+              <font name="Fira Code" size="12" style="0"/>
+              <text value="City"/>
+            </properties>
+          </component>
+          <component id="e4f73" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="6" column="4" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <enabled value="false"/>
+              <focusable value="false"/>
+              <font name="Fira Code" size="12" style="0"/>
+              <text value="State/Provience"/>
+            </properties>
+          </component>
+          <component id="6dbfc" class="javax.swing.JTextField" default-binding="true">
+            <constraints>
+              <grid row="7" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="6cdf6" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="8" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <enabled value="false"/>
+              <focusable value="false"/>
+              <font name="Fira Code" size="12" style="0"/>
+              <text value="Postal/Zip Code"/>
+            </properties>
+          </component>
+          <component id="78017" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="16" style="1"/>
+              <text value="Date Of Birth"/>
+            </properties>
+          </component>
+          <component id="66e1a" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="16" style="1"/>
+              <text value="Gender"/>
+            </properties>
+          </component>
+          <component id="1034d" class="javax.swing.JRadioButton" binding="maleRadioButton" default-binding="true">
+            <constraints>
+              <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Male"/>
+            </properties>
+          </component>
+          <component id="b588d" class="javax.swing.JRadioButton" binding="femaleRadioButton" default-binding="true">
+            <constraints>
+              <grid row="10" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Female"/>
+            </properties>
+          </component>
+          <component id="4ee07" class="javax.swing.JTextField" binding="textField5" default-binding="true">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="6399c" class="javax.swing.JRadioButton" binding="otherRadioButton" default-binding="true">
+            <constraints>
+              <grid row="10" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Other"/>
+            </properties>
+          </component>
+          <component id="6bb25" class="javax.swing.JComboBox" default-binding="true">
+            <constraints>
+              <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <model>
+                <item value="1"/>
+                <item value="2"/>
+                <item value="3"/>
+                <item value="4"/>
+                <item value="5"/>
+                <item value="6"/>
+                <item value="7"/>
+                <item value="8"/>
+                <item value="9"/>
+                <item value="10"/>
+                <item value="11"/>
+                <item value="12"/>
+                <item value="13"/>
+                <item value="14"/>
+                <item value="15"/>
+                <item value="16"/>
+                <item value="17"/>
+                <item value="18"/>
+                <item value="19"/>
+                <item value="20"/>
+                <item value="21"/>
+                <item value="22"/>
+                <item value="23"/>
+                <item value="24"/>
+                <item value="25"/>
+                <item value="26"/>
+                <item value="27"/>
+                <item value="28"/>
+                <item value="29"/>
+                <item value="30"/>
+                <item value="31"/>
+              </model>
+            </properties>
+          </component>
+          <component id="d90b" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="9" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Day"/>
+            </properties>
+          </component>
+          <component id="c3d3" class="javax.swing.JComboBox" default-binding="true">
+            <constraints>
+              <grid row="9" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <model>
+                <item value="1"/>
+                <item value="2"/>
+                <item value="3"/>
+                <item value="4"/>
+                <item value="5"/>
+                <item value="6"/>
+                <item value="7"/>
+                <item value="8"/>
+                <item value="9"/>
+                <item value="10"/>
+                <item value="11"/>
+                <item value="12"/>
+              </model>
+            </properties>
+          </component>
+          <component id="30054" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="9" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Month"/>
+            </properties>
+          </component>
+          <component id="2e48e" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="9" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Year"/>
+            </properties>
+          </component>
+          <component id="677fa" class="javax.swing.JComboBox" binding="comboBox3" default-binding="true">
+            <constraints>
+              <grid row="9" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <model>
+                <item value="1990"/>
+                <item value="1991"/>
+                <item value="1992"/>
+                <item value="1993"/>
+                <item value="1994"/>
+                <item value="1995"/>
+                <item value="1996"/>
+                <item value="1997"/>
+                <item value="1998"/>
+                <item value="1999"/>
+                <item value="2000"/>
+                <item value="2001"/>
+                <item value="2002"/>
+                <item value="2003"/>
+                <item value="2004"/>
+                <item value="2005"/>
+                <item value="2006"/>
+                <item value="2007"/>
+                <item value="2008"/>
+                <item value="2009"/>
+                <item value="2010"/>
+                <item value="2011"/>
+                <item value="2012"/>
+                <item value="2013"/>
+                <item value="2014"/>
+                <item value="2015"/>
+                <item value="2016"/>
+                <item value="2017"/>
+                <item value="2018"/>
+              </model>
+            </properties>
+          </component>
+          <component id="94da6" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <enabled value="false"/>
+              <focusable value="false"/>
+              <font name="Fira Code" size="12" style="0"/>
+              <text value="Last Name"/>
+            </properties>
+          </component>
+          <component id="befb9" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="4" column="4" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <enabled value="false"/>
+              <focusable value="false"/>
+              <font name="Fira Code" size="12" style="0"/>
+              <text value="Street Address Line 2"/>
+            </properties>
+          </component>
+          <component id="71aa0" class="javax.swing.JComboBox" binding="comboBox4" default-binding="true">
+            <constraints>
+              <grid row="7" column="4" row-span="1" col-span="3" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <model>
+                <item value="Afghanistan"/>
+                <item value="Albania"/>
+                <item value="Algeria"/>
+                <item value="Andorra"/>
+                <item value="Angola"/>
+                <item value="Antigua &amp; Deps"/>
+                <item value="Argentina"/>
+                <item value="Armenia"/>
+                <item value="Australia"/>
+                <item value="Austria"/>
+                <item value="Azerbaijan"/>
+                <item value="Bahamas"/>
+                <item value="Bahrain"/>
+                <item value="Bangladesh"/>
+                <item value="Barbados"/>
+                <item value="Belarus"/>
+                <item value="Belgium"/>
+                <item value="Belize"/>
+                <item value="Benin"/>
+                <item value="Bhutan"/>
+                <item value="Bolivia"/>
+                <item value="Bosnia Herzegovina"/>
+                <item value="Botswana"/>
+                <item value="Brazil"/>
+                <item value="Brunei"/>
+                <item value="Bulgaria"/>
+                <item value="Burkina"/>
+                <item value="Burundi"/>
+                <item value="Cambodia"/>
+                <item value="Cameroon"/>
+                <item value="Canada"/>
+                <item value="Cape Verde"/>
+                <item value="Central African Rep"/>
+                <item value="Chad"/>
+                <item value="Chile"/>
+                <item value="China"/>
+                <item value="Colombia"/>
+                <item value="Comoros"/>
+                <item value="Congo"/>
+                <item value="Congo {Democratic Rep}"/>
+                <item value="Costa Rica"/>
+                <item value="Croatia"/>
+                <item value="Cuba"/>
+                <item value="Cyprus"/>
+                <item value="Czech Republic"/>
+                <item value="Denmark"/>
+                <item value="Djibouti"/>
+                <item value="Dominica"/>
+                <item value="Dominican Republic"/>
+                <item value="East Timor"/>
+                <item value="Ecuador"/>
+                <item value="Egypt"/>
+                <item value="El Salvador"/>
+                <item value="Equatorial Guinea"/>
+                <item value="Eritrea"/>
+                <item value="Estonia"/>
+                <item value="Ethiopia"/>
+                <item value="Fiji"/>
+                <item value="Finland"/>
+                <item value="France"/>
+                <item value="Gabon"/>
+                <item value="Gambia"/>
+                <item value="Georgia"/>
+                <item value="Germany"/>
+                <item value="Ghana"/>
+                <item value="Greece"/>
+                <item value="Grenada"/>
+                <item value="Guatemala"/>
+                <item value="Guinea"/>
+                <item value="Guinea-Bissau"/>
+                <item value="Guyana"/>
+                <item value="Haiti"/>
+                <item value="Honduras"/>
+                <item value="Hungary"/>
+                <item value="Iceland"/>
+                <item value="India"/>
+                <item value="Indonesia"/>
+                <item value="Iran"/>
+                <item value="Iraq"/>
+                <item value="Ireland {Republic}"/>
+                <item value="Israel"/>
+                <item value="Italy"/>
+                <item value="Ivory Coast"/>
+                <item value="Jamaica"/>
+                <item value="Japan"/>
+                <item value="Jordan"/>
+                <item value="Kazakhstan"/>
+                <item value="Kenya"/>
+                <item value="Kiribati"/>
+                <item value="Korea North"/>
+                <item value="Korea South"/>
+                <item value="Kosovo"/>
+                <item value="Kuwait"/>
+                <item value="Kyrgyzstan"/>
+                <item value="Laos"/>
+                <item value="Latvia"/>
+                <item value="Lebanon"/>
+                <item value="Lesotho"/>
+                <item value="Liberia"/>
+                <item value="Libya"/>
+                <item value="Liechtenstein"/>
+                <item value="Lithuania"/>
+                <item value="Luxembourg"/>
+                <item value="Macedonia"/>
+                <item value="Madagascar"/>
+                <item value="Malawi"/>
+                <item value="Malaysia"/>
+                <item value="Maldives"/>
+                <item value="Mali"/>
+                <item value="Malta"/>
+                <item value="Marshall Islands"/>
+                <item value="Mauritania"/>
+                <item value="Mauritius"/>
+                <item value="Mexico"/>
+                <item value="Micronesia"/>
+                <item value="Moldova"/>
+                <item value="Monaco"/>
+                <item value="Mongolia"/>
+                <item value="Montenegro"/>
+                <item value="Morocco"/>
+                <item value="Mozambique"/>
+                <item value="Myanmar, {Burma}"/>
+                <item value="Namibia"/>
+                <item value="Nauru"/>
+                <item value="Nepal"/>
+                <item value="Netherlands"/>
+                <item value="New Zealand"/>
+                <item value="Nicaragua"/>
+                <item value="Niger"/>
+                <item value="Nigeria"/>
+                <item value="Norway"/>
+                <item value="Oman"/>
+                <item value="Pakistan"/>
+                <item value="Palau"/>
+                <item value="Panama"/>
+                <item value="Papua New Guinea"/>
+                <item value="Paraguay"/>
+                <item value="Peru"/>
+                <item value="Philippines"/>
+                <item value="Poland"/>
+                <item value="Portugal"/>
+                <item value="Qatar"/>
+                <item value="Romania"/>
+                <item value="Russian Federation"/>
+                <item value="Rwanda"/>
+                <item value="St Kitts &amp; Nevis"/>
+                <item value="St Lucia"/>
+                <item value="Saint Vincent &amp; the Grenadines"/>
+                <item value="Samoa"/>
+                <item value="San Marino"/>
+                <item value="Sao Tome &amp; Principe"/>
+                <item value="Saudi Arabia"/>
+                <item value="Senegal"/>
+                <item value="Serbia"/>
+                <item value="Seychelles"/>
+                <item value="Sierra Leone"/>
+                <item value="Singapore"/>
+                <item value="Slovakia"/>
+                <item value="Slovenia"/>
+                <item value="Solomon Islands"/>
+                <item value="Somalia"/>
+                <item value="South Africa"/>
+                <item value="South Sudan"/>
+                <item value="Spain"/>
+                <item value="Sri Lanka"/>
+                <item value="Sudan"/>
+                <item value="Suriname"/>
+                <item value="Swaziland"/>
+                <item value="Sweden"/>
+                <item value="Switzerland"/>
+                <item value="Syria"/>
+                <item value="Taiwan"/>
+                <item value="Tajikistan"/>
+                <item value="Tanzania"/>
+                <item value="Thailand"/>
+                <item value="Togo"/>
+                <item value="Tonga"/>
+                <item value="Trinidad &amp; Tobago"/>
+                <item value="Tunisia"/>
+                <item value="Turkey"/>
+                <item value="Turkmenistan"/>
+                <item value="Tuvalu"/>
+                <item value="Uganda"/>
+                <item value="Ukraine"/>
+                <item value="United Arab Emirates"/>
+                <item value="United Kingdom"/>
+                <item value="United States"/>
+                <item value="Uruguay"/>
+                <item value="Uzbekistan"/>
+                <item value="Vanuatu"/>
+                <item value="Vatican City"/>
+                <item value="Venezuela"/>
+                <item value="Vietnam"/>
+                <item value="Yemen"/>
+                <item value="Zambia"/>
+                <item value="Zimbabwe"/>
+              </model>
+            </properties>
+          </component>
+          <component id="f92e5" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="8" column="4" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <enabled value="false"/>
+              <focusable value="false"/>
+              <font name="Fira Code" size="12" style="0"/>
+              <text value="Country"/>
+            </properties>
+          </component>
+          <component id="57bf2" class="javax.swing.JComboBox" binding="comboBox2" default-binding="true">
+            <constraints>
+              <grid row="5" column="4" row-span="1" col-span="3" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <model>
+                <item value="State 1"/>
+                <item value="State 2"/>
+                <item value="State 3"/>
+                <item value="State 4"/>
+                <item value="State 5"/>
+                <item value="State 6"/>
+                <item value="State 7"/>
+              </model>
+            </properties>
+          </component>
+          <component id="cef15" class="javax.swing.JTextField" default-binding="true">
+            <constraints>
+              <grid row="5" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
