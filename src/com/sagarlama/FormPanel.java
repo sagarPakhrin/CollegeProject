@@ -8,16 +8,19 @@ public class FormPanel extends JPanel {
 //    New Section
     private HeadingPanel headingPanel;
     private StudentSection studentSection;
+    private ParentsSection parentsSection;
 
 
     public FormPanel(){
         headingPanel = new HeadingPanel();
         studentSection = new StudentSection();
+        parentsSection = new ParentsSection();
 
         setLayout(new BorderLayout());
 
         add(headingPanel,BorderLayout.PAGE_START);
         add(studentSection,BorderLayout.CENTER);
+//        add(,BorderLayout.CENTER);
 
     }
 }// AdmissionForm Class Finishes
@@ -149,9 +152,11 @@ class StudentSection extends JPanel{
 
 
 //        Forst Column
+
+
         gc.gridx = 0;
         gc.gridy = 0;
-        gc.anchor = GridBagConstraints.LINE_START;
+        gc.anchor = GridBagConstraints.WEST;
         add(nameLbl,gc);
 
 //        Next Column
@@ -159,7 +164,7 @@ class StudentSection extends JPanel{
         add(firstName,gc);
 
 
-        gc.gridx=3;
+        gc.gridx=4;
         add(lastName,gc);
 
         gc.gridx = 1;
@@ -167,7 +172,7 @@ class StudentSection extends JPanel{
         add(firstNameLbl,gc);
 
         //        Next Column
-        gc.gridx=3;
+        gc.gridx=4;
         add(lastNameLbl,gc);
 
 
@@ -188,7 +193,7 @@ class StudentSection extends JPanel{
         gc.gridx=1;
         add(streetAddress,gc);
 
-        gc.gridx=3;
+        gc.gridx=4;
         add(streetLineAddress,gc);
 
 //        Next Row
@@ -196,7 +201,7 @@ class StudentSection extends JPanel{
         gc.gridx = 1;
         add(streetAddressLbl,gc);
 
-        gc.gridx=3;
+        gc.gridx=4;
         add(streetLineLbl,gc);
 
 
@@ -205,7 +210,7 @@ class StudentSection extends JPanel{
         gc.gridx = 1;
         add(city,gc);
 
-        gc.gridx=3;
+        gc.gridx=4;
         add(state,gc);
 
 //        Next Row
@@ -213,7 +218,7 @@ class StudentSection extends JPanel{
         gc.gridx = 1;
         add(cityLbl,gc);
 
-        gc.gridx=3;
+        gc.gridx=4;
         add(stateLbl,gc);
 
 
@@ -221,7 +226,7 @@ class StudentSection extends JPanel{
         gc.gridx =1;
         add(ZipCode,gc);
 
-        gc.gridx=3;
+        gc.gridx=4;
         add(countryComboBox,gc);
 
 
@@ -229,7 +234,7 @@ class StudentSection extends JPanel{
         gc.gridx = 1;
         add(postalCodeLbl,gc);
 
-        gc.gridx = 3;
+        gc.gridx = 4;
         add(countryLbl,gc);
 
 //        Next Row
@@ -273,5 +278,13 @@ class StudentSection extends JPanel{
         setBorder(outerBorder);
         setBorder(titleBorder);
 
+    }
+}
+
+
+class ParentsSection extends JPanel{
+    public ParentsSection(){
+        Border titleBorder = BorderFactory.createTitledBorder("Parent's Details");
+        Border outerBorder = BorderFactory.createEmptyBorder(5,5,5,5);
     }
 }

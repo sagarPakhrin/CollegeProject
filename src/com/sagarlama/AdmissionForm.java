@@ -24,7 +24,7 @@ public class AdmissionForm extends JFrame {
         add(formPanel);
 
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
-        setSize(800,800);
+        setSize(1000,1000);
         setLocationRelativeTo(null);
         setResizable(true);
         setVisible(true);
