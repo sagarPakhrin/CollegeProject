@@ -19,8 +19,8 @@ public class FormPanel extends JPanel {
         setLayout(new BorderLayout());
 
         add(headingPanel,BorderLayout.PAGE_START);
-        add(studentSection,BorderLayout.CENTER);
-//        add(,BorderLayout.CENTER);
+//        add(studentSection,BorderLayout.CENTER);
+        add(parentsSection,BorderLayout.CENTER);
 
     }
 }// AdmissionForm Class Finishes
@@ -283,8 +283,80 @@ class StudentSection extends JPanel{
 
 
 class ParentsSection extends JPanel{
+    private JLabel fathersNameLbl;
+    private JLabel mothersNameLbl;
+    private JLabel fatherFNameLbl;
+    private JLabel fattherLNameLbl;
+    private JLabel motherFNameLbl;
+    private JLabel motherLNameLbl;
+    private JLabel EmailLbl;
+    private JLabel phoneNumbherLbl;
+    private JLabel phonePrimaryLbl;
+    private JLabel phoneSecondaryLbl;
+
+
+    private JTextField fathersFName;
+    private JTextField fathersLName;
+    private JTextField mothersFName;
+    private JTextField mothersLName;
+
     public ParentsSection(){
+
+       fathersNameLbl = new JLabel("Father's Name");
+       mothersNameLbl = new JLabel("Mother's Name");
+       fatherFNameLbl = new JLabel("First Name ");
+       fattherLNameLbl = new JLabel("Last Name ");
+       motherFNameLbl = new JLabel("First name ");
+       motherLNameLbl = new JLabel("Last Name ");
+       EmailLbl = new JLabel("E-Mail");
+       phoneNumbherLbl = new JLabel("Phone Number");
+       phonePrimaryLbl = new JLabel("Primary ");
+       phoneSecondaryLbl = new JLabel("Secondary ");
+
+
+        setLayout(new GridBagLayout());
+
+        GridBagConstraints gc= new GridBagConstraints();
+        Font font = new Font("Arial Black",Font.BOLD,16);
+
+        fathersNameLbl.setFont(font);
+        mothersNameLbl.setFont(font);
+        EmailLbl.setFont(font);
+        phoneNumbherLbl.setFont(font);
+
+        gc.gridy = 0;
+        gc.gridx = 0;
+        gc.anchor = GridBagConstraints.WEST;
+        add(fathersNameLbl,gc);
+
+        gc.gridx++;
+        gc.gridy++;
+        add(fatherFNameLbl,gc);
+
+        gc.gridx++;
+        add(fattherLNameLbl,gc);
+
+        gc.gridy++;
+        gc.gridx=0;
+        add(mothersNameLbl,gc);
+
+        gc.gridy++;
+        gc.gridx++;
+        add(motherFNameLbl);
+        gc.gridx++;
+        add(motherLNameLbl);
+
+        gc.gridy++;
+        add(EmailLbl,gc);
+
+        gc.gridy++;
+        add(phoneNumbherLbl,gc);
+
+
         Border titleBorder = BorderFactory.createTitledBorder("Parent's Details");
         Border outerBorder = BorderFactory.createEmptyBorder(5,5,5,5);
+
+        setBorder(outerBorder);
+        setBorder(titleBorder);
     }
 }
