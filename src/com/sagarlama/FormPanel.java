@@ -19,8 +19,8 @@ public class FormPanel extends JPanel {
         setLayout(new BorderLayout());
 
         add(headingPanel,BorderLayout.PAGE_START);
-//        add(studentSection,BorderLayout.CENTER);
-        add(parentsSection,BorderLayout.CENTER);
+        add(studentSection,BorderLayout.CENTER);
+        add(parentsSection,BorderLayout.PAGE_END);
 
     }
 }// AdmissionForm Class Finishes
@@ -299,20 +299,28 @@ class ParentsSection extends JPanel{
     private JTextField fathersLName;
     private JTextField mothersFName;
     private JTextField mothersLName;
+    private JTextField emailField;
+    private JTextField phoneField;
 
     public ParentsSection(){
 
-       fathersNameLbl = new JLabel("Father's Name");
-       mothersNameLbl = new JLabel("Mother's Name");
-       fatherFNameLbl = new JLabel("First Name ");
-       fattherLNameLbl = new JLabel("Last Name ");
-       motherFNameLbl = new JLabel("First name ");
-       motherLNameLbl = new JLabel("Last Name ");
-       EmailLbl = new JLabel("E-Mail");
-       phoneNumbherLbl = new JLabel("Phone Number");
-       phonePrimaryLbl = new JLabel("Primary ");
-       phoneSecondaryLbl = new JLabel("Secondary ");
+        fathersNameLbl = new JLabel("Father's Name");
+        mothersNameLbl = new JLabel("Mother's Name");
+        fatherFNameLbl = new JLabel("First Name ");
+        fattherLNameLbl = new JLabel("Last Name ");
+        motherFNameLbl = new JLabel("First name ");
+        motherLNameLbl = new JLabel("Last Name ");
+        EmailLbl = new JLabel("E-Mail");
+        phoneNumbherLbl = new JLabel("Phone Number");
+        phonePrimaryLbl = new JLabel("Primary ");
+        phoneSecondaryLbl = new JLabel("Secondary ");
 
+        fathersFName = new JTextField(20);
+        fathersLName = new JTextField(20);
+        mothersFName = new JTextField(20);
+        mothersLName = new JTextField(20);
+        emailField = new JTextField(20);
+        phoneField = new JTextField(20);
 
         setLayout(new GridBagLayout());
 
@@ -330,7 +338,13 @@ class ParentsSection extends JPanel{
         add(fathersNameLbl,gc);
 
         gc.gridx++;
+        add(fathersFName,gc);
+
+        gc.gridx++;
+        add(fathersLName,gc);
+
         gc.gridy++;
+        gc.gridx=1;
         add(fatherFNameLbl,gc);
 
         gc.gridx++;
@@ -340,17 +354,32 @@ class ParentsSection extends JPanel{
         gc.gridx=0;
         add(mothersNameLbl,gc);
 
-        gc.gridy++;
         gc.gridx++;
-        add(motherFNameLbl);
+        add(mothersFName,gc);
+
         gc.gridx++;
-        add(motherLNameLbl);
+        add(mothersLName,gc);
 
         gc.gridy++;
+        gc.gridx=1;
+        add(motherFNameLbl,gc);
+        gc.gridx++;
+        add(motherLNameLbl,gc);
+
+        gc.gridy++;
+        gc.gridx=0;
         add(EmailLbl,gc);
 
+
+        gc.gridx=1;
+        add(emailField,gc);
+
         gc.gridy++;
+        gc.gridx=0;
         add(phoneNumbherLbl,gc);
+
+        gc.gridx=1;
+        add(phoneField,gc);
 
 
         Border titleBorder = BorderFactory.createTitledBorder("Parent's Details");
