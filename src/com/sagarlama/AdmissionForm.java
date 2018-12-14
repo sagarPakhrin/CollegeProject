@@ -22,7 +22,7 @@ public class AdmissionForm extends JFrame {
 
 
 
-        add(formPanel);
+        add(new JScrollPane(formPanel));
 
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         setSize(1000,1000);
